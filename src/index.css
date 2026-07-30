@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    /* height: 100%; */
+    background-color: rgba(105, 101, 101, 0.9);
+    color: rgb(218, 206, 206);
+    z-index: 1000;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
