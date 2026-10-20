@@ -11,14 +11,6 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-
-			<Middlebar />
-
-			<div className="flex flex-col sm:flex-row justify-around mt-6 sm:w-480 mx-auto">
-				<Calendar />
-
-				<DataArea />
-			</div>
 		</div>
 	);
 }
