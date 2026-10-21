@@ -159,7 +159,7 @@ export function Calendar() {
 	}
 
 	return (
-		<div className="mt-6 space-y-6 px-4 pb-8">
+		<div className="m-1 space-y-6 px-4 pb-8 bg-white">
 			<div className="flex flex-col gap-2 text-center">
 				<h2 className="text-2xl font-semibold">
 					Calendário acadêmico
