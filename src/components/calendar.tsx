@@ -167,7 +167,7 @@ export function Calendar() {
 			</div>
 
 			<div>
-				<section className="md:w-160 mx-auto rounded-2xl border border-slate-200 p-4 shadow-sm">
+				<section className="md:w-120 mx-auto rounded-2xl border border-slate-200 p-4 shadow-sm">
 					<div className="mb-4 flex items-center justify-between gap-3">
 						<button
 							type="button"
@@ -220,14 +220,14 @@ export function Calendar() {
 								(calendarEvent) => calendarEvent.date === dayKey,
 							);
 							const isSelected = dayKey === selectedDate;
-							const isToday = dayKey === todayKey;
+							// const isToday = dayKey === todayKey;
 
 							return (
 								<button
 									key={cell.id}
 									type="button"
 									onClick={() => setSelectedDate(dayKey)}
-									className={`min-h-10 rounded-2xl border p-2 text-left transition ${
+									className={`min-h-10 h-30 w-15 rounded-2xl border p-2 text-left transition ${
 										isSelected
 											? "border-slate-900 bg-slate-900 text-white shadow-lg"
 											: "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50"
@@ -239,13 +239,13 @@ export function Calendar() {
 										>
 											{day.getDate()}
 										</span>
-										{isToday ? (
+										{/* {isToday ? (
 											<span
 												className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.2em] ${isSelected ? "bg-white/20 text-white" : "bg-slate-100 text-slate-600"}`}
 											>
 												hoje
 											</span>
-										) : null}
+										) : null} */}
 									</div>
 									<div className="mt-2 space-y-1">
 										{dayEvents.slice(0, 2).map((calendarEvent) => (
