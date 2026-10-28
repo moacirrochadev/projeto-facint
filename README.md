@@ -3,7 +3,8 @@
 ## Página de login criada
 
 Print em tamanho padrão 1366x768
-[image](./public/tela-login-tamanho-padrao-notebook.png)
+
+![Print Tela de Login](/public/tela-login-tamanho-padrao-notebook.png "Tela de Login")
 
 # React + TypeScript + Vite
 
